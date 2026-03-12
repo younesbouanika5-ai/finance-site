@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Article finance 1 - FinanceSimple</title>
-  <meta name="description" content="Découvrez des conseils simples de finance personnelle sur FinanceSimple.">
+  <title>FinanceSimple - Apprendre à gérer et investir son argent</title>
+  <meta name="description" content="FinanceSimple vous aide à mieux gérer votre argent, investir intelligemment, économiser et développer vos revenus.">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -49,35 +49,51 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 30px auto;
       background: white;
       padding: 30px;
       box-sizing: border-box;
     }
 
-    h1, h2 {
+    h2 {
       color: #0a2540;
+      margin-top: 0;
     }
 
-    p, li {
-      line-height: 1.7;
+    p {
+      line-height: 1.6;
     }
 
-    .back-links {
-      margin-top: 30px;
-      padding-top: 20px;
-      border-top: 1px solid #ddd;
+    .section {
+      margin-bottom: 40px;
     }
 
-    .back-links a {
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px 20px;
+    }
+
+    .card {
+      background: #f8f9fb;
+      border: 1px solid #e3e7ee;
+      padding: 14px;
+      border-radius: 8px;
+    }
+
+    .card a {
       color: #6a32c9;
       text-decoration: none;
-      margin-right: 15px;
+      font-weight: 600;
     }
 
-    .back-links a:hover {
+    .card a:hover {
       text-decoration: underline;
+    }
+
+    ul li {
+      margin-bottom: 8px;
     }
 
     footer {
@@ -113,45 +129,70 @@
   </header>
 
   <nav>
-    <a href="../index.html">Accueil</a>
-    <a href="../gagner-argent-internet.html">Gagner de l'argent</a>
-    <a href="../investir-bourse.html">Investir</a>
-    <a href="../budget.html">Budget</a>
-    <a href="../revenu-passif.html">Revenus passifs</a>
-    <a href="../contact.html">Contact</a>
-    <a href="../privacy.html">Confidentialité</a>
+    <a href="index.html">Accueil</a>
+    <a href="gagner-argent-internet.html">Gagner de l'argent</a>
+    <a href="investir-bourse.html">Investir</a>
+    <a href="budget.html">Budget</a>
+    <a href="revenu-passif.html">Revenus passifs</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Confidentialité</a>
   </nav>
 
   <div class="container">
-    <h1>Article finance 1</h1>
 
-    <p>
-      La finance personnelle est un sujet essentiel pour mieux gérer son argent,
-      éviter les erreurs et construire un avenir plus stable.
-    </p>
+    <section class="section">
+      <h2>Bienvenue sur FinanceSimple</h2>
+      <p>
+        FinanceSimple est un site dédié à la finance personnelle, à l’épargne,
+        à l’investissement et aux moyens d’améliorer sa situation financière.
+      </p>
+    </section>
 
-    <h2>Pourquoi apprendre la finance</h2>
-    <p>
-      Comprendre les bases permet de mieux suivre ses dépenses, d’épargner plus
-      facilement et de prendre de meilleures décisions sur le long terme.
-    </p>
+    <section class="section">
+      <h2>Pages principales</h2>
+      <div class="article-grid">
+        <div class="card"><a href="gagner-argent-internet.html">Comment gagner de l'argent sur internet</a></div>
+        <div class="card"><a href="investir-bourse.html">Comment investir en bourse</a></div>
+        <div class="card"><a href="budget.html">Comment gérer son budget</a></div>
+        <div class="card"><a href="revenu-passif.html">10 idées de revenus passifs</a></div>
+        <div class="card"><a href="contact.html">Page contact</a></div>
+        <div class="card"><a href="privacy.html">Politique de confidentialité</a></div>
+      </div>
+    </section>
 
-    <h2>Épargner régulièrement</h2>
-    <p>
-      Mettre de côté une petite somme chaque mois peut déjà faire une vraie
-      différence au bout d’un an. L’important est surtout la régularité.
-    </p>
+    <section class="section">
+      <h2>Articles SEO</h2>
+      <div class="article-grid">
+        <div class="card"><a href="articles/comment-atteindre-l-ind-pendance-financi-re.html">Comment atteindre l'indépendance financière</a></div>
+        <div class="card"><a href="articles/comment-conomiser-1000-euros-par-an.html">Comment économiser 1000 euros par an</a></div>
+        <div class="card"><a href="articles/comment-construire-un-patrimoine.html">Comment construire un patrimoine</a></div>
+        <div class="card"><a href="articles/comment-cr-er-plusieurs-sources-de-revenus.html">Comment créer plusieurs sources de revenus</a></div>
+        <div class="card"><a href="articles/comment-d-velopper-ses-revenus-passifs.html">Comment développer ses revenus passifs</a></div>
+        <div class="card"><a href="articles/comment-gagner-de-l-argent-en-freelance.html">Comment gagner de l'argent en freelance</a></div>
+        <div class="card"><a href="articles/comment-investir-avec-un-petit-budget.html">Comment investir avec un petit budget</a></div>
+        <div class="card"><a href="articles/comment-investir-en-actions.html">Comment investir en actions</a></div>
+        <div class="card"><a href="articles/comment-investir-en-etf-pour-d-butant.html">Comment investir en ETF pour débutant</a></div>
+        <div class="card"><a href="articles/comment-investir-sur-le-long-terme.html">Comment investir sur le long terme</a></div>
+        <div class="card"><a href="articles/comment-pr-parer-sa-retraite.html">Comment préparer sa retraite</a></div>
+        <div class="card"><a href="articles/comment-r-duire-ses-d-penses.html">Comment réduire ses dépenses</a></div>
+        <div class="card"><a href="articles/comment-viter-les-arnaques-financi-res.html">Comment éviter les arnaques financières</a></div>
+        <div class="card"><a href="articles/les-bases-de-l-ducation-financi-re.html">Les bases de l'éducation financière</a></div>
+        <div class="card"><a href="articles/les-erreurs-financi-res-les-plus-courantes.html">Les erreurs financières les plus courantes</a></div>
+        <div class="card"><a href="articles/les-habitudes-des-personnes-riches.html">Les habitudes des personnes riches</a></div>
+        <div class="card"><a href="articles/les-meilleures-applications-pour-g-rer-son-argent.html">Les meilleures applications pour gérer son argent</a></div>
+        <div class="card"><a href="articles/les-meilleures-strat-gies-pour-pargner.html">Les meilleures stratégies pour épargner</a></div>
+        <div class="card"><a href="articles/les-meilleurs-livres-de-finance-personnelle.html">Les meilleurs livres de finance personnelle</a></div>
+        <div class="card"><a href="articles/les-meilleurs-sites-pour-gagner-de-l-argent.html">Les meilleurs sites pour gagner de l'argent</a></div>
+      </div>
+    </section>
 
-    <h2>Investir avec prudence</h2>
-    <p>
-      Avant d’investir, il faut comprendre les risques, définir un objectif et
-      éviter les promesses de gains rapides.
-    </p>
+    <section class="section">
+      <h2>À propos</h2>
+      <p>
+        Les contenus publiés sur ce site sont informatifs et ne remplacent pas un conseil financier personnalisé.
+      </p>
+    </section>
 
-    <div class="back-links">
-      <a href="../index.html">← Retour à l'accueil</a>
-      <a href="article2.html">Article suivant →</a>
-    </div>
   </div>
 
   <footer>
