@@ -1,89 +1,268 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>FinanceSimple</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinanceSimple - Apprendre à gérer et investir son argent</title>
+  <meta name="description" content="FinanceSimple vous aide à mieux gérer votre argent, investir intelligemment, économiser et découvrir des idées pour améliorer vos finances.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      color: #111;
+    }
 
-<style>
-body{
-font-family:Arial;
-background:#f5f5f5;
-margin:0;
-}
+    header {
+      background: #0a2540;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
 
-header{
-background:#0a2540;
-color:white;
-padding:20px;
-text-align:center;
-}
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
 
-nav{
-background:#1e3a5f;
-padding:10px;
-text-align:center;
-}
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
 
-nav a{
-color:white;
-margin:10px;
-text-decoration:none;
-}
+    nav {
+      background: #1e3a5f;
+      padding: 14px 10px;
+      text-align: center;
+    }
 
-.container{
-width:900px;
-margin:auto;
-background:white;
-padding:20px;
-}
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
 
-.article{
-margin-bottom:30px;
-}
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-footer{
-background:#0a2540;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
-}
-</style>
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      box-sizing: border-box;
+    }
 
+    h2 {
+      color: #0a2540;
+      margin-top: 0;
+    }
+
+    h3 {
+      color: #1e3a5f;
+      margin-top: 35px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #6a32c9;
+    }
+
+    .intro {
+      margin-bottom: 30px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .article-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px 30px;
+    }
+
+    .card {
+      background: #f8f9fb;
+      border: 1px solid #e3e7ee;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 700px) {
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+
+      .container {
+        margin: 15px;
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
-
 <body>
 
-<header>
-<h1>FinanceSimple</h1>
-<p>Apprendre à gérer et investir son argent</p>
-</header>
+  <header>
+    <h1>FinanceSimple</h1>
+    <p>Apprendre à gérer et investir son argent</p>
+  </header>
 
-<nav>
-<a href="index.html">Accueil</a>
-<a href="gagner-argent-internet.html">Gagner de l'argent</a>
-<a href="investir-bourse.html">Investir</a>
-<a href="budget.html">Budget</a>
-<a href="contact.html">Contact</a>
-</nav>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="gagner-argent-internet.html">Gagner de l'argent</a>
+    <a href="investir-bourse.html">Investir</a>
+    <a href="budget.html">Budget</a>
+    <a href="revenu-passif.html">Revenus passifs</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Confidentialité</a>
+  </nav>
 
-<div class="container">
+  <div class="container">
+    <section class="intro section">
+      <h2>Bienvenue sur FinanceSimple</h2>
+      <p>
+        FinanceSimple est un site dédié à la finance personnelle, à l'épargne,
+        à l'investissement et aux moyens d'améliorer sa situation financière.
+        Vous trouverez ici des articles simples pour mieux comprendre l'argent,
+        éviter certaines erreurs et progresser pas à pas.
+      </p>
+    </section>
 
-<h2>Articles récents</h2>
+    <section class="section">
+      <h2>Pages principales</h2>
+      <div class="article-grid">
+        <div class="card">
+          <a href="gagner-argent-internet.html">Comment gagner de l'argent sur internet</a>
+        </div>
+        <div class="card">
+          <a href="investir-bourse.html">Comment investir en bourse</a>
+        </div>
+        <div class="card">
+          <a href="budget.html">Comment gérer son budget</a>
+        </div>
+        <div class="card">
+          <a href="revenu-passif.html">10 idées de revenus passifs</a>
+        </div>
+        <div class="card">
+          <a href="contact.html">Page contact</a>
+        </div>
+        <div class="card">
+          <a href="privacy.html">Politique de confidentialité</a>
+        </div>
+      </div>
+    </section>
 
-<ul>
-<li><a href="gagner-argent-internet.html">Comment gagner de l'argent sur internet</a></li>
-<li><a href="investir-bourse.html">Comment investir en bourse</a></li>
-<li><a href="applications.html">Applications pour gagner de l'argent</a></li>
-<li><a href="budget.html">Comment gérer son budget</a></li>
-<li><a href="revenu-passif.html">10 idées de revenus passifs</a></li>
-</ul>
+    <section class="section">
+      <h2>Articles récents</h2>
+      <ul>
+        <li><a href="gagner-argent-internet.html">Comment gagner de l'argent sur internet</a></li>
+        <li><a href="investir-bourse.html">Comment investir en bourse</a></li>
+        <li><a href="budget.html">Comment gérer son budget</a></li>
+        <li><a href="revenu-passif.html">10 idées de revenus passifs</a></li>
+      </ul>
+    </section>
 
-</div>
+    <section class="section">
+      <h2>Tous les articles générés</h2>
+      <p>
+        Voici la liste des articles présents dans le dossier <strong>articles/</strong>.
+      </p>
 
-<footer>
-<p>© 2026 FinanceSimple</p>
-</footer>
+      <div class="article-grid">
+        <div class="card"><a href="articles/article1.html">Article finance 1</a></div>
+        <div class="card"><a href="articles/article2.html">Article finance 2</a></div>
+        <div class="card"><a href="articles/article3.html">Article finance 3</a></div>
+        <div class="card"><a href="articles/article4.html">Article finance 4</a></div>
+        <div class="card"><a href="articles/article5.html">Article finance 5</a></div>
+        <div class="card"><a href="articles/article6.html">Article finance 6</a></div>
+        <div class="card"><a href="articles/article7.html">Article finance 7</a></div>
+        <div class="card"><a href="articles/article8.html">Article finance 8</a></div>
+        <div class="card"><a href="articles/article9.html">Article finance 9</a></div>
+        <div class="card"><a href="articles/article10.html">Article finance 10</a></div>
+        <div class="card"><a href="articles/article11.html">Article finance 11</a></div>
+        <div class="card"><a href="articles/article12.html">Article finance 12</a></div>
+        <div class="card"><a href="articles/article13.html">Article finance 13</a></div>
+        <div class="card"><a href="articles/article14.html">Article finance 14</a></div>
+        <div class="card"><a href="articles/article15.html">Article finance 15</a></div>
+        <div class="card"><a href="articles/article16.html">Article finance 16</a></div>
+        <div class="card"><a href="articles/article17.html">Article finance 17</a></div>
+        <div class="card"><a href="articles/article18.html">Article finance 18</a></div>
+        <div class="card"><a href="articles/article19.html">Article finance 19</a></div>
+        <div class="card"><a href="articles/article20.html">Article finance 20</a></div>
+        <div class="card"><a href="articles/article21.html">Article finance 21</a></div>
+        <div class="card"><a href="articles/article22.html">Article finance 22</a></div>
+        <div class="card"><a href="articles/article23.html">Article finance 23</a></div>
+        <div class="card"><a href="articles/article24.html">Article finance 24</a></div>
+        <div class="card"><a href="articles/article25.html">Article finance 25</a></div>
+        <div class="card"><a href="articles/article26.html">Article finance 26</a></div>
+        <div class="card"><a href="articles/article27.html">Article finance 27</a></div>
+        <div class="card"><a href="articles/article28.html">Article finance 28</a></div>
+        <div class="card"><a href="articles/article29.html">Article finance 29</a></div>
+        <div class="card"><a href="articles/article30.html">Article finance 30</a></div>
+        <div class="card"><a href="articles/article31.html">Article finance 31</a></div>
+        <div class="card"><a href="articles/article32.html">Article finance 32</a></div>
+        <div class="card"><a href="articles/article33.html">Article finance 33</a></div>
+        <div class="card"><a href="articles/article34.html">Article finance 34</a></div>
+        <div class="card"><a href="articles/article35.html">Article finance 35</a></div>
+        <div class="card"><a href="articles/article36.html">Article finance 36</a></div>
+        <div class="card"><a href="articles/article37.html">Article finance 37</a></div>
+        <div class="card"><a href="articles/article38.html">Article finance 38</a></div>
+        <div class="card"><a href="articles/article39.html">Article finance 39</a></div>
+        <div class="card"><a href="articles/article40.html">Article finance 40</a></div>
+        <div class="card"><a href="articles/article41.html">Article finance 41</a></div>
+        <div class="card"><a href="articles/article42.html">Article finance 42</a></div>
+        <div class="card"><a href="articles/article43.html">Article finance 43</a></div>
+        <div class="card"><a href="articles/article44.html">Article finance 44</a></div>
+        <div class="card"><a href="articles/article45.html">Article finance 45</a></div>
+        <div class="card"><a href="articles/article46.html">Article finance 46</a></div>
+        <div class="card"><a href="articles/article47.html">Article finance 47</a></div>
+        <div class="card"><a href="articles/article48.html">Article finance 48</a></div>
+        <div class="card"><a href="articles/article49.html">Article finance 49</a></div>
+        <div class="card"><a href="articles/article50.html">Article finance 50</a></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>À propos du site</h2>
+      <p>
+        Le but de FinanceSimple est de rendre la finance plus facile à comprendre.
+        Les contenus publiés sur ce site sont informatifs et ne constituent pas
+        des conseils financiers personnalisés.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 FinanceSimple - Tous droits réservés</p>
+  </footer>
 
 </body>
 </html>
