@@ -2,12 +2,16 @@
 <html lang="fr">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>FinanceSimple - Apprendre à gérer et investir son argent</title>
 
-<meta name="description" content="FinanceSimple vous aide à mieux gérer votre argent, investir intelligemment et améliorer vos finances.">
+<meta name="description" content="FinanceSimple vous aide à mieux gérer votre argent, investir intelligemment et développer vos finances.">
+
+<!-- Google Search Console -->
+<meta name="google-site-verification" content="huFlcdprxXY-siokJhOfuyw6qY4DAmNRzVmrc0owGRM" />
 
 <!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1045192524550929"
@@ -16,28 +20,42 @@ crossorigin="anonymous"></script>
 <style>
 
 body{
-font-family:Arial;
-background:#f5f5f5;
+font-family:Arial, sans-serif;
 margin:0;
-color:#111;
+background:#f4f6f9;
+color:#222;
 }
 
+/* HEADER */
+
 header{
-background:#0a2540;
+background:url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40") center/cover;
 color:white;
-padding:30px;
+padding:120px 20px;
 text-align:center;
 }
 
+header h1{
+font-size:48px;
+margin:0;
+}
+
+header p{
+font-size:20px;
+margin-top:10px;
+}
+
+/* NAVIGATION */
+
 nav{
-background:#1e3a5f;
-padding:12px;
+background:#0a2540;
+padding:15px;
 text-align:center;
 }
 
 nav a{
 color:white;
-margin:0 12px;
+margin:0 15px;
 text-decoration:none;
 font-weight:bold;
 }
@@ -46,59 +64,84 @@ nav a:hover{
 text-decoration:underline;
 }
 
+/* CONTAINER */
+
 .container{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
-background:white;
-padding:30px;
+padding:40px 20px;
 }
 
+/* SECTIONS */
+
 .section{
-margin-bottom:40px;
+margin-bottom:50px;
 }
+
+.section h2{
+margin-bottom:20px;
+color:#0a2540;
+}
+
+/* CARDS */
 
 .article-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:12px;
+gap:20px;
 }
 
 .card{
-background:#f8f9fb;
-border:1px solid #e3e7ee;
-padding:15px;
-border-radius:8px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.2s;
+}
+
+.card:hover{
+transform:translateY(-4px);
 }
 
 .card a{
 text-decoration:none;
-color:#6a32c9;
+color:#0a2540;
 font-weight:bold;
+font-size:18px;
 }
 
-.card a:hover{
-text-decoration:underline;
+/* PUBLICITE */
+
+.ad{
+margin:40px 0;
+text-align:center;
 }
+
+/* FOOTER */
 
 footer{
 background:#0a2540;
 color:white;
 text-align:center;
-padding:25px;
-margin-top:40px;
+padding:30px;
+margin-top:50px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <h1>FinanceSimple</h1>
 <p>Apprendre à gérer et investir son argent</p>
+
 </header>
 
 <nav>
+
 <a href="index.html">Accueil</a>
 <a href="gagner-argent-internet.html">Gagner de l'argent</a>
 <a href="investir-bourse.html">Investir</a>
@@ -106,6 +149,7 @@ margin-top:40px;
 <a href="revenu-passif.html">Revenus passifs</a>
 <a href="contact.html">Contact</a>
 <a href="privacy.html">Confidentialité</a>
+
 </nav>
 
 <div class="container">
@@ -117,13 +161,15 @@ margin-top:40px;
 <p>
 FinanceSimple est un site dédié à la finance personnelle,
 à l'épargne et à l'investissement.
-Vous trouverez ici des conseils simples pour mieux gérer votre argent.
+Vous trouverez ici des conseils simples pour mieux gérer votre argent,
+développer vos revenus et améliorer votre situation financière.
 </p>
 
 </div>
 
-<!-- Publicité AdSense -->
-<div style="margin:40px 0;text-align:center;">
+<!-- PUB ADSENSE -->
+
+<div class="ad">
 
 <ins class="adsbygoogle"
 style="display:block"
@@ -140,32 +186,32 @@ data-full-width-responsive="true"></ins>
 
 <div class="section">
 
-<h2>Pages principales</h2>
+<h2>Articles populaires</h2>
 
 <div class="article-grid">
 
 <div class="card">
-<a href="gagner-argent-internet.html">Comment gagner de l'argent sur internet</a>
+<a href="articles/comment-investir-en-actions.html">
+Comment investir en actions
+</a>
 </div>
 
 <div class="card">
-<a href="investir-bourse.html">Comment investir en bourse</a>
+<a href="articles/comment-investir-en-etf-pour-debutant.html">
+Comment investir en ETF
+</a>
 </div>
 
 <div class="card">
-<a href="budget.html">Comment gérer son budget</a>
+<a href="articles/comment-economiser-1000-euros-par-an.html">
+Comment économiser 1000€ par an
+</a>
 </div>
 
 <div class="card">
-<a href="revenu-passif.html">10 idées de revenus passifs</a>
-</div>
-
-<div class="card">
-<a href="contact.html">Page contact</a>
-</div>
-
-<div class="card">
-<a href="privacy.html">Politique de confidentialité</a>
+<a href="articles/comment-construire-un-patrimoine.html">
+Comment construire un patrimoine
+</a>
 </div>
 
 </div>
@@ -174,33 +220,33 @@ data-full-width-responsive="true"></ins>
 
 <div class="section">
 
-<h2>Articles SEO</h2>
+<h2>Conseils financiers</h2>
 
 <div class="article-grid">
 
-<div class="card"><a href="articles/comment-atteindre-l-ind-pendance-financi-re.html">Comment atteindre l'indépendance financière</a></div>
+<div class="card">
+<a href="articles/comment-reduire-ses-depenses.html">
+Comment réduire ses dépenses
+</a>
+</div>
 
-<div class="card"><a href="articles/comment-conomiser-1000-euros-par-an.html">Comment économiser 1000 euros par an</a></div>
+<div class="card">
+<a href="articles/comment-creer-plusieurs-sources-de-revenus.html">
+Créer plusieurs sources de revenus
+</a>
+</div>
 
-<div class="card"><a href="articles/comment-construire-un-patrimoine.html">Comment construire un patrimoine</a></div>
+<div class="card">
+<a href="articles/comment-developper-ses-revenus-passifs.html">
+Développer ses revenus passifs
+</a>
+</div>
 
-<div class="card"><a href="articles/comment-cr-er-plusieurs-sources-de-revenus.html">Comment créer plusieurs sources de revenus</a></div>
-
-<div class="card"><a href="articles/comment-d-velopper-ses-revenus-passifs.html">Comment développer ses revenus passifs</a></div>
-
-<div class="card"><a href="articles/comment-gagner-de-l-argent-en-freelance.html">Comment gagner de l'argent en freelance</a></div>
-
-<div class="card"><a href="articles/comment-investir-avec-un-petit-budget.html">Comment investir avec un petit budget</a></div>
-
-<div class="card"><a href="articles/comment-investir-en-actions.html">Comment investir en actions</a></div>
-
-<div class="card"><a href="articles/comment-investir-en-etf-pour-d-butant.html">Comment investir en ETF pour débutant</a></div>
-
-<div class="card"><a href="articles/comment-investir-sur-le-long-terme.html">Comment investir sur le long terme</a></div>
-
-<div class="card"><a href="articles/comment-pr-parer-sa-retraite.html">Comment préparer sa retraite</a></div>
-
-<div class="card"><a href="articles/comment-r-duire-ses-d-penses.html">Comment réduire ses dépenses</a></div>
+<div class="card">
+<a href="articles/les-habitudes-des-personnes-riches.html">
+Les habitudes des personnes riches
+</a>
+</div>
 
 </div>
 
