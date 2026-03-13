@@ -2,45 +2,172 @@
 <html lang="fr">
 
 <head>
+
 <meta charset="UTF-8">
-<title>Tous les articles</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tous les articles | FinanceSimple</title>
+
+<style>
+
+body{
+font-family:Arial, sans-serif;
+margin:0;
+background:#f4f6f9;
+color:#222;
+}
+
+header{
+background:#0a2540;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+nav{
+background:#0a2540;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+padding:20px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card a{
+text-decoration:none;
+color:#0a2540;
+font-weight:bold;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+footer{
+background:#0a2540;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<header>
+
 <h1>Tous les articles</h1>
+<p>Apprendre à gérer, économiser et investir son argent</p>
 
-<ul>
+</header>
 
-<li><a href="articles/comment-investir-en-actions.html">Comment investir en actions</a></li>
+<nav>
 
-<li><a href="articles/comment-investir-en-etf-pour-debutant.html">Comment investir en ETF</a></li>
+<a href="index.html">Accueil</a>
+<a href="gagner-argent-internet.html">Gagner de l'argent</a>
+<a href="investir-bourse.html">Investir</a>
+<a href="budget.html">Budget</a>
+<a href="revenu-passif.html">Revenus passifs</a>
+<a href="contact.html">Contact</a>
 
-<li><a href="articles/comment-economiser-1000-euros-par-an.html">Comment économiser 1000€</a></li>
+</nav>
 
-<li><a href="articles/comment-construire-un-patrimoine.html">Comment construire un patrimoine</a></li>
+<div class="container">
 
-<li><a href="articles/comment-creer-plusieurs-sources-de-revenus.html">Créer plusieurs sources de revenus</a></li>
+<div class="grid">
 
-<li><a href="articles/comment-developper-ses-revenus-passifs.html">Développer ses revenus passifs</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1642790106117-e829e14a795f">
+<a href="articles/comment-investir-en-actions.html">Comment investir en actions</a>
+</div>
 
-<li><a href="articles/comment-investir-avec-un-petit-budget.html">Investir avec un petit budget</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1642543492481-44e81e3914a7">
+<a href="articles/comment-investir-en-etf-pour-debutant.html">Comment investir en ETF</a>
+</div>
 
-<li><a href="articles/comment-preparer-sa-retraite.html">Préparer sa retraite</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d">
+<a href="articles/comment-economiser-1000-euros-par-an.html">Comment économiser 1000€ par an</a>
+</div>
 
-<li><a href="articles/comment-reduire-ses-depenses.html">Réduire ses dépenses</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4">
+<a href="articles/comment-construire-un-patrimoine.html">Comment construire un patrimoine</a>
+</div>
 
-<li><a href="articles/comment-eviter-les-arnaques-financieres.html">Éviter les arnaques financières</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e">
+<a href="articles/comment-creer-plusieurs-sources-de-revenus.html">Créer plusieurs sources de revenus</a>
+</div>
 
-<li><a href="articles/les-habitudes-des-personnes-riches.html">Les habitudes des personnes riches</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518186233392-c232efbf2373">
+<a href="articles/comment-developper-ses-revenus-passifs.html">Développer ses revenus passifs</a>
+</div>
 
-<li><a href="articles/les-meilleures-applications-pour-gerer-son-argent.html">Applications pour gérer son argent</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6">
+<a href="articles/comment-investir-avec-un-petit-budget.html">Investir avec un petit budget</a>
+</div>
 
-<li><a href="articles/les-meilleurs-livres-de-finance-personnelle.html">Livres de finance personnelle</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40">
+<a href="articles/comment-preparer-sa-retraite.html">Préparer sa retraite</a>
+</div>
 
-<li><a href="articles/les-meilleurs-sites-pour-gagner-de-l-argent.html">Sites pour gagner de l'argent</a></li>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07">
+<a href="articles/comment-reduire-ses-depenses.html">Réduire ses dépenses</a>
+</div>
 
-</ul>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2">
+<a href="articles/comment-eviter-les-arnaques-financieres.html">Éviter les arnaques financières</a>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 FinanceSimple
+
+</footer>
 
 </body>
 
