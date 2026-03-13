@@ -8,6 +8,8 @@
 
 <title>Tous les articles | FinanceSimple</title>
 
+<meta name="description" content="Découvrez tous les articles de FinanceSimple : investir en bourse, économiser de l'argent, créer des revenus passifs et améliorer votre gestion financière.">
+
 <style>
 
 body{
@@ -20,12 +22,16 @@ color:#222;
 header{
 background:#0a2540;
 color:white;
-padding:40px;
+padding:50px 20px;
 text-align:center;
 }
 
+header p{
+opacity:0.9;
+}
+
 nav{
-background:#0a2540;
+background:#082033;
 padding:15px;
 text-align:center;
 }
@@ -35,6 +41,11 @@ color:white;
 margin:0 15px;
 text-decoration:none;
 font-weight:bold;
+transition:0.2s;
+}
+
+nav a:hover{
+opacity:0.8;
 }
 
 .container{
@@ -45,32 +56,35 @@ padding:40px 20px;
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:25px;
 }
 
 .card{
 background:white;
-border-radius:10px;
+border-radius:12px;
 box-shadow:0 5px 15px rgba(0,0,0,0.08);
-padding:20px;
-transition:0.3s;
+overflow:hidden;
+transition:0.25s;
 }
 
 .card:hover{
-transform:translateY(-5px);
+transform:translateY(-6px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
 .card a{
+display:block;
 text-decoration:none;
 color:#0a2540;
 font-weight:bold;
+padding:15px;
 }
 
 .card img{
 width:100%;
-border-radius:8px;
-margin-bottom:10px;
+height:170px;
+object-fit:cover;
 }
 
 footer{
@@ -104,7 +118,7 @@ margin-top:40px;
 <a href="contact.html">Contact</a>
 <a href="articles.html">Articles</a>
 <a href="privacy.html">Confidentialité</a>
-  
+
 </nav>
 
 <div class="container">
@@ -112,53 +126,73 @@ margin-top:40px;
 <div class="grid">
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1642790106117-e829e14a795f">
-<a href="articles/comment-investir-en-actions.html">Comment investir en actions</a>
+<a href="articles/comment-investir-en-actions.html">
+<img src="https://images.unsplash.com/photo-1642790106117-e829e14a795f" alt="Investir en actions">
+Comment investir en actions
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1642543492481-44e81e3914a7">
-<a href="articles/comment-investir-en-etf-pour-debutant.html">Comment investir en ETF</a>
+<a href="articles/comment-investir-en-etf-pour-debutant.html">
+<img src="https://images.unsplash.com/photo-1642543492481-44e81e3914a7" alt="Investir en ETF">
+Comment investir en ETF
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d">
-<a href="articles/comment-economiser-1000-euros-par-an.html">Comment économiser 1000€ par an</a>
+<a href="articles/comment-economiser-1000-euros-par-an.html">
+<img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d" alt="Économiser de l'argent">
+Comment économiser 1000€ par an
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4">
-<a href="articles/comment-construire-un-patrimoine.html">Comment construire un patrimoine</a>
+<a href="articles/comment-construire-un-patrimoine.html">
+<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Construire un patrimoine">
+Comment construire un patrimoine
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e">
-<a href="articles/comment-creer-plusieurs-sources-de-revenus.html">Créer plusieurs sources de revenus</a>
+<a href="articles/comment-creer-plusieurs-sources-de-revenus.html">
+<img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e" alt="Créer plusieurs sources de revenus">
+Créer plusieurs sources de revenus
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1518186233392-c232efbf2373">
-<a href="articles/comment-developper-ses-revenus-passifs.html">Développer ses revenus passifs</a>
+<a href="articles/comment-developper-ses-revenus-passifs.html">
+<img src="https://images.unsplash.com/photo-1518186233392-c232efbf2373" alt="Revenus passifs">
+Développer ses revenus passifs
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6">
-<a href="articles/comment-investir-avec-un-petit-budget.html">Investir avec un petit budget</a>
+<a href="articles/comment-investir-avec-un-petit-budget.html">
+<img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6" alt="Investir petit budget">
+Investir avec un petit budget
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40">
-<a href="articles/comment-preparer-sa-retraite.html">Préparer sa retraite</a>
+<a href="articles/comment-preparer-sa-retraite.html">
+<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" alt="Préparer sa retraite">
+Préparer sa retraite
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07">
-<a href="articles/comment-reduire-ses-depenses.html">Réduire ses dépenses</a>
+<a href="articles/comment-reduire-ses-depenses.html">
+<img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07" alt="Réduire ses dépenses">
+Réduire ses dépenses
+</a>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2">
-<a href="articles/comment-eviter-les-arnaques-financieres.html">Éviter les arnaques financières</a>
+<a href="articles/comment-eviter-les-arnaques-financieres.html">
+<img src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2" alt="Éviter les arnaques financières">
+Éviter les arnaques financières
+</a>
 </div>
 
 </div>
