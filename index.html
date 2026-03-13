@@ -6,46 +6,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>FinanceSimple - Apprendre à gérer et investir son argent</title>
+<title>FinanceSimple</title>
 
-<meta name="description" content="FinanceSimple vous aide à mieux gérer votre argent, investir intelligemment et développer vos finances.">
-
-<!-- Google Search Console -->
 <meta name="google-site-verification" content="huFlcdprxXY-siokJhOfuyw6qY4DAmNRzVmrc0owGRM" />
 
-<!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1045192524550929"
 crossorigin="anonymous"></script>
 
 <style>
 
 body{
-font-family:Arial, sans-serif;
+font-family:Arial;
 margin:0;
 background:#f4f6f9;
 color:#222;
 }
 
-/* HEADER */
-
-header{
+.hero{
 background:url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40") center/cover;
 color:white;
 padding:120px 20px;
 text-align:center;
 }
-
-header h1{
-font-size:48px;
-margin:0;
-}
-
-header p{
-font-size:20px;
-margin-top:10px;
-}
-
-/* NAVIGATION */
 
 nav{
 background:#0a2540;
@@ -60,34 +42,15 @@ text-decoration:none;
 font-weight:bold;
 }
 
-nav a:hover{
-text-decoration:underline;
-}
-
-/* CONTAINER */
-
 .container{
 max-width:1100px;
 margin:auto;
 padding:40px 20px;
 }
 
-/* SECTIONS */
-
-.section{
-margin-bottom:50px;
-}
-
-.section h2{
-margin-bottom:20px;
-color:#0a2540;
-}
-
-/* CARDS */
-
-.article-grid{
+.grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 }
 
@@ -96,35 +59,20 @@ background:white;
 padding:20px;
 border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,0.08);
-transition:0.2s;
 }
 
-.card:hover{
-transform:translateY(-4px);
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
 }
-
-.card a{
-text-decoration:none;
-color:#0a2540;
-font-weight:bold;
-font-size:18px;
-}
-
-/* PUBLICITE */
-
-.ad{
-margin:40px 0;
-text-align:center;
-}
-
-/* FOOTER */
 
 footer{
 background:#0a2540;
 color:white;
 text-align:center;
 padding:30px;
-margin-top:50px;
+margin-top:40px;
 }
 
 </style>
@@ -133,7 +81,7 @@ margin-top:50px;
 
 <body>
 
-<header>
+<header class="hero">
 
 <h1>FinanceSimple</h1>
 <p>Apprendre à gérer et investir son argent</p>
@@ -154,99 +102,47 @@ margin-top:50px;
 
 <div class="container">
 
-<div class="section">
-
-<h2>Bienvenue sur FinanceSimple</h2>
-
-<p>
-FinanceSimple est un site dédié à la finance personnelle,
-à l'épargne et à l'investissement.
-Vous trouverez ici des conseils simples pour mieux gérer votre argent,
-développer vos revenus et améliorer votre situation financière.
-</p>
-
-</div>
-
-<!-- PUB ADSENSE -->
-
-<div class="ad">
-
-<ins class="adsbygoogle"
-style="display:block"
-data-ad-client="ca-pub-1045192524550929"
-data-ad-slot="1234567890"
-data-ad-format="auto"
-data-full-width-responsive="true"></ins>
-
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-</div>
-
-<div class="section">
-
 <h2>Articles populaires</h2>
 
-<div class="article-grid">
+<div class="grid">
 
 <div class="card">
+
+<img src="https://images.unsplash.com/photo-1642790106117-e829e14a795f">
+
 <a href="articles/comment-investir-en-actions.html">
 Comment investir en actions
 </a>
+
 </div>
 
 <div class="card">
+
+<img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d">
+
 <a href="articles/comment-investir-en-etf-pour-debutant.html">
 Comment investir en ETF
 </a>
+
 </div>
 
 <div class="card">
+
+<img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07">
+
 <a href="articles/comment-economiser-1000-euros-par-an.html">
-Comment économiser 1000€ par an
+Comment économiser 1000€
 </a>
+
 </div>
 
 <div class="card">
+
+<img src="https://images.unsplash.com/photo-1565514020179-026b92b84bb6">
+
 <a href="articles/comment-construire-un-patrimoine.html">
-Comment construire un patrimoine
+Construire un patrimoine
 </a>
-</div>
-
-</div>
-
-</div>
-
-<div class="section">
-
-<h2>Conseils financiers</h2>
-
-<div class="article-grid">
-
-<div class="card">
-<a href="articles/comment-reduire-ses-depenses.html">
-Comment réduire ses dépenses
-</a>
-</div>
-
-<div class="card">
-<a href="articles/comment-creer-plusieurs-sources-de-revenus.html">
-Créer plusieurs sources de revenus
-</a>
-</div>
-
-<div class="card">
-<a href="articles/comment-developper-ses-revenus-passifs.html">
-Développer ses revenus passifs
-</a>
-</div>
-
-<div class="card">
-<a href="articles/les-habitudes-des-personnes-riches.html">
-Les habitudes des personnes riches
-</a>
-</div>
 
 </div>
 
@@ -256,7 +152,7 @@ Les habitudes des personnes riches
 
 <footer>
 
-<p>© 2026 FinanceSimple</p>
+© 2026 FinanceSimple
 
 </footer>
 
