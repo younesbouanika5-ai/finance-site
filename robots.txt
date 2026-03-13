@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://younesbouanika5-ai.github.io/finance-site/sitemap.xml
